@@ -7,7 +7,7 @@ alert(' Hello '+ userName )
 let me = prompt('Do I love Enemy movies?')
 console.log(me);
 
-switch (me) {
+switch (me.toLowerCase()) {
     case 'yes':
         alert('that is correct')
        break;
@@ -22,7 +22,7 @@ switch (me) {
 let breaking = prompt('Do I love breaking bad movie?')
 console.log(breaking);
 
-switch (breaking) {
+switch (breaking.toLowerCase()) {
     case 'yes':
         alert('wrong answer')
         break
@@ -36,7 +36,7 @@ switch (breaking) {
 let calm = prompt('Do I love the calm?')
 console.log(calm);
 
-switch (calm) {
+switch (calm.toLowerCase()) {
     case 'yes':
         alert('that is correct')
         break
@@ -52,7 +52,7 @@ switch (calm) {
 let dark = prompt('Do I love dark movie?')
 console.log(dark);
 
-switch (dark) {
+switch (dark.toLowerCase()) {
     case 'yes':
         alert('that is correct')
         break
@@ -67,7 +67,7 @@ switch (dark) {
 let book = prompt('Do I love reading books?')
 console.log(book);
 
-switch (book) {
+switch (book.toLowerCase()) {
     case 'yes':
         alert('Nice that is correct ')
         break
