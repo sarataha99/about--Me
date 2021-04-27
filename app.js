@@ -9,11 +9,13 @@ console.log(me);
 
 switch (me.toLowerCase()) {
     case 'yes':
+        case 'y':
         alert('that is correct')
         score++
         alert('Great Work your score is ' + score);
        break;
     case 'no' : 
+    case 'n' :
     alert('no i love the enemy alot')
         break;
         default:
@@ -26,10 +28,12 @@ console.log(breaking);
 
 switch (breaking.toLowerCase()) {
     case 'yes':
+        case 'y':
         alert('wrong answer')
        
         break
     case 'no': 
+    case 'n' :
     alert('correct answer you are great!')
     score++
     alert('Great Work your score is ' + score);
@@ -43,11 +47,13 @@ console.log(calm);
 
 switch (calm.toLowerCase()) {
     case 'yes':
+        case 'y':
         alert('that is correct')
         score++
         alert('Great Work your score is ' + score);
         break
-    case 'no' : 
+    case 'no' :
+        case 'n' : 
     alert('no you are dont know me yet')
     break;
 
@@ -61,11 +67,13 @@ console.log(dark);
 
 switch (dark.toLowerCase()) {
     case 'yes':
+        case 'y':
         alert('that is correct')
         score++
         alert('Great Work your score is ' + score);
         break
     case 'no' : 
+    case 'n' :
     alert('no i love dark so much')
     break;
     default:
@@ -78,11 +86,13 @@ console.log(book);
 
 switch (book.toLowerCase()) {
     case 'yes':
+        case 'y':
         alert('Nice that is correct ')
         score++
         alert('Great Work your score is ' + score);
         break
-    case 'no' : 
+    case 'no' :
+        case 'n' : 
     alert('no i love the books alot')
     break;
     default:
@@ -148,7 +158,7 @@ alert('your score is ' + score)
 
 
 
-let Answer = ['Dark', 'weaking dead' ,'frinds' , 'viking' ];
+/*let Answer = ['Dark', 'weaking dead' ,'frinds' , 'viking' ];
 
 let question7 = prompt('What Is My Fav Movie ? ', 'please choose Dark, weaking dead ,frinds , viking ');
 //for (let i = 0; i < 5; i++) {
@@ -186,7 +196,7 @@ switch (question7.toLowerCase()) {
         break;
 
 
-    default:
+    default :
         alert('again please you have also five chances')
 
         alert(' Game Over Your Score Is  ' + score + ' The Correct Is I love Dark, weaking dead ,frinds , viking  ')
@@ -199,10 +209,71 @@ switch (question7.toLowerCase()) {
             prompt('What Is My Fav Movie ? ', 'please choose Dark, weaking dead ,frinds , viking ');
         }
         break;
-    }
+    }*/
        
     
     
 console.log ('your score is ' + score)
+
+
+
+for (let j= 0; j < 6; j++) {
+    let question7 = prompt('What Is My Fav Movie ? ', 'please choose Dark, weaking dead ,frinds , viking ');
+    console.log(j)
+
+    console.log(question7)
+    // let question6 = prompt('Do I Love Weaking Dead?');
+    switch (question7.toLowerCase()) {
+        case 'Dark':
+        
+            alert('correct I Love It So Much');
+            score++
+            alert('Great Work your score is ' + score);
+            break;
+        case 'frinds':
+       
+            alert ('correct I Love It So Much' );
+            score++
+            alert('Great Work your score is ' + score);
+        //question6 = prompt('Do I Love Weaking Dead?');
+        break;
+        case 'walking dead':
+        
+            alert('correct I Love It So Much');
+            score++
+            alert('Great Work your score is ' + score);
+            break;
+            case 'viking':
+        
+            alert('correct I Love It So Much');
+            score++
+            alert('Great Work your score is ' + score);
+            break;
+
+            default :
+            alert ('again please you have also another chances' );
+
+            alert(' sorry your score is  ' + score + ' please try again ');
+        //question6 = prompt('Do I Love Weaking Dead?');
+        break;
+
+    }
+   console.log(question7)
+    if  (question7.toLowerCase()=='frinds' || question7.toLowerCase()=='Dark' || question7.toLowerCase()=='walking dead' || question7.toLowerCase()=='viking') {
+
+    
+        break;
+    }
+    
+
+
+
+
+
+}
+console.log('130')
+
+//console.log(score);
+alert('your score is ' + score)
 
     
