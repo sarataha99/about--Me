@@ -12,3 +12,25 @@ professionally
 I Graguated from The Hashimate Universty
 Bachelor in, Electrical
 Engineering**
+
+# The Top Ten My Movie 
+
+            1- game of throns
+
+            2- viking 
+
+            3- frind 
+
+            4- dark
+
+            5- srtanger things
+
+            6- picky blander
+
+            7- weaking dead 
+
+            8- black list 
+
+            9- sharlok homes 
+
+            10- alsayad**
