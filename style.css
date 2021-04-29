@@ -15,3 +15,16 @@ body{
 
    background-color:rosybrown
 } 
+#parents{
+    background-color: rgb(255, 0, 76);
+}
+#child1{
+    background-color: deeppink;
+}
+#child2{
+    background-color: blueviolet
+;
+}
+#child3{
+    background-color: coral;
+}

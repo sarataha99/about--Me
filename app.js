@@ -1,11 +1,20 @@
 'use strict'
-let score =0 ;
+/*let score =0 ;
+function userName(){
+
+
 let userName=prompt('please enter your name');
 console.log(' Hello ' + userName);
 alert(' Hello '+ userName )
+}
+userName();
+
+function me(){
+
 
 let me = prompt('Do I love Enemy movies?')
 console.log(me);
+
 
 switch (me.toLowerCase()) {
     case 'yes':
@@ -22,7 +31,9 @@ switch (me.toLowerCase()) {
             alert('please answer yes or no')
             break;
 }
-
+}
+me();
+function breaking(){
 let breaking = prompt('Do I love breaking bad movie?')
 console.log(breaking);
 
@@ -42,6 +53,9 @@ switch (breaking.toLowerCase()) {
         alert('please answer yes or no')
         break;
 }
+}
+breaking();
+function calm(){
 let calm = prompt('Do I love the calm?')
 console.log(calm);
 
@@ -61,7 +75,9 @@ switch (calm.toLowerCase()) {
             alert('please answer yes or no')
             break;
 }
-
+}
+calm();
+function dark(){
 let dark = prompt('Do I love dark movie?')
 console.log(dark);
 
@@ -81,6 +97,9 @@ switch (dark.toLowerCase()) {
         break;
 
 }
+}
+dark();
+function book(){
 let book = prompt('Do I love reading books?')
 console.log(book);
 
@@ -98,9 +117,11 @@ switch (book.toLowerCase()) {
     default:
         alert('please answer yes or no')
         break;}
+    }
+    book();
 
 
-
+function question6(){
 for (let i = 0; i < 4; i++) {
     let question6 = prompt('Do I Love Weaking Dead?');
     console.log(i)
@@ -150,7 +171,9 @@ alert('your score is ' + score)
 console.log ('your score is ' + score)
 
 
-
+}
+question6();
+function question7(){
 for (let j= 0; j < 6; j++) {
     let question7 = prompt('What Is My Fav Movie ? ', 'please choose Dark, weaking dead ,frinds , viking ');
     console.log(j)
@@ -208,5 +231,5 @@ for (let j= 0; j < 6; j++) {
 console.log('130')
 
 alert('your score is ' + score)
-
-    
+}
+question7();    
